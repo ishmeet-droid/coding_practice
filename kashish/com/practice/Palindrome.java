@@ -25,15 +25,31 @@ public class Palindrome{
         str = str+ (""+chr);
         
       }
+
       if(s.equals(str))
         return true;
       else 
         return false;
     }
-
+    public static boolean isPalindromeCharArray(char[] ch){
+      int start, end;
+      start = 0;
+      end = ch.length - 1;
+      while(start < end){
+           if(ch[start] != ch[end]){
+            return false;
+           }
+           start++;
+           end--;
+      }
+      return true;
+    }
     public static void main(String args[]) {
 
-      System.out.println(isPalindrome("ama"));
+      // System.out.println(isPalindrome("ama"));
+      System.out.println(isPalindromeCharArray(new char[]{'a','b','c','b','a'}));
+      System.out.println(isPalindromeCharArray(new char[]{'a','b','b','a'}));
+      System.out.println(isPalindromeCharArray(new char[]{'m','b','c','b','a'}));
      
     }
 }
