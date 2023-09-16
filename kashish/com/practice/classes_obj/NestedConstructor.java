@@ -1,4 +1,4 @@
-package kashish.com.practice;
+package kashish.com.practice.classes_obj;
 
 public class NestedConstructor {
 
