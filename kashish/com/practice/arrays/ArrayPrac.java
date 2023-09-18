@@ -1,8 +1,8 @@
-package kashish.com.practice.coll_prac;
+package kashish.com.practice.arrays;
 
 import java.util.Arrays;
 
-public class ArrayListPrac {
+public class ArrayPrac {
     
      public static void main(String[] args)
 {
