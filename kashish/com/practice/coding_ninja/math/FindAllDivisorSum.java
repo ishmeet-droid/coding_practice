@@ -1,9 +1,11 @@
 package kashish.com.practice.coding_ninja.math;
 
 public class FindAllDivisorSum {
-
+  // Code Link --> https://www.codingninjas.com/studio/problems/sum-of-all-divisors_8360720?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=2
     public static int sumOfAllDivisors(int n){
         // Write your code here.
+
+
         int sum = 0;	
 	for(int i = 1; i <= n; i++){
         
