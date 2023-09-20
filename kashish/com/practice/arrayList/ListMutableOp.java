@@ -5,6 +5,18 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ListMutableOp {
+    List<String> list;
+    public ListMutableOp(List list) {
+      this.list = list;
+    }
+    public int celebrityIndex(String celeb) {
+
+       if(list.contains(celeb)){
+        return list.indexOf(celeb) + 1;
+      }
+      return -1;
+
+    }
     public static void changePassword(ArrayList<String> list) {
 
     list.add(list.remove(0));
@@ -17,6 +29,12 @@ public class ListMutableOp {
     }
 
     public static void main(String args[]) {
+
+     List<String> list = Arrays.asList("Kendall Jenner", "Cardi B", "Blake Lively", "Gigi Hadid",
+        "Simone Ashley", "Rihanna Fenty");
+      ListMutableOp obj = new ListMutableOp(list);
+      String celeb1 = "Blake Lively";
+      obj.celebrityIndex(celeb1);
       ArrayList<String> inputList = new ArrayList<String> (Arrays.asList("Dilligrout", "Baubles", "Caput Draconis", "Pig Snout",
           "Wattlebird", "Banana Fritters"));
 
@@ -36,8 +54,8 @@ public class ListMutableOp {
       
 
       //performing set operation in List
-      List<Integer> list = Arrays.asList(12, 35, 67, 89, 9);
-      updateMarks(list, 4, 98);
+      List<Integer> listInt = Arrays.asList(12, 35, 67, 89, 9);
+      updateMarks(listInt, 4, 98);
     }
 
     
