@@ -1,4 +1,4 @@
-package kashish.com.practice.arrays;
+package kashish.com.practice.arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
