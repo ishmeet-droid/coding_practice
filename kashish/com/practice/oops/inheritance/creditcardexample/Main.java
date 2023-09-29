@@ -5,8 +5,8 @@ class Main {
     CreditCard cc = new CreditCard();   
     System.out.println();
     AmazonCard ac = new AmazonCard();
+    System.out.println();
     CreditCard ac2= new AmazonCard(2);
-
     System.out.println();
     CreditCard ac3= new AmazonCard();
   //  AmazonCard ac4= new CreditCard(); --> error incompatible

@@ -10,6 +10,9 @@ public class CreditCard{
   public CreditCard(){
     System.out.println("Inside CreditCard constructor");
   }
+  public CreditCard(int a){
+    System.out.println("Inside CreditCard constructor2");
+  }
   public void pay(){        // Accessible to all the subclasses
     System.out.println("Inside CreditCard : pay()");
   }  

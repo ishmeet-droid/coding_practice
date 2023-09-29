@@ -4,15 +4,15 @@ public class AmazonCard extends CreditCard{
   private double amazonPayBalance;
 
   public AmazonCard(){
-    // super();
-    this(2);
+    super(2);
+    // this(2);
     // this(2,3);
     
     System.out.println("Inside AmazonCard constructor1");
   }
 
     public AmazonCard(int a){
-    
+    //super()
     this(2,3);
       //super...
     // super();
@@ -20,7 +20,7 @@ public class AmazonCard extends CreditCard{
   }
    public AmazonCard(int a, int b){
     
-    super();
+    super();//ignored...
     System.out.println("Inside AmazonCard constructor3");
   }
 
